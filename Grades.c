@@ -1,19 +1,15 @@
 #include <stdio.h>
 
-int main () {
-    char name[50];
-    int age;
+int main() {
+    int grades = 100;
     
-    printf("Enter your name:");
-    scanf("%s", name);
-    
-    printf("Enter your age:  ");
-    scanf("%d", &age);
-    
-    // Display
-    printf("\n--- User Information ---\n");
-    printf("\nName: %s\n", name);
-    printf("Age: %d\n", age);
+    if (grades>=75 && grades<=100) {
+        printf("Passed");
+    } else if (grades>=50 && grades<=74) {
+        printf("Failed");
+    } else {
+        printf("Invalid");
+    }
     
     return 0;
 }
