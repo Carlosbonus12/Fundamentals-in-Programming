@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int ck;
-    
-    printf("Enter your desired number to be count by the power of two (up to 16,384):");
-    scanf("%d", &ck);
+    int i;
 
-    for (ck; ck <= 16384; ck = ck * 2) {
-        printf("%d\n", ck);
+    for (i = 2; i <= 512; i = i * 2) {
+        printf("%d\n", i);
     }
 
     return 0;
