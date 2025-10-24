@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int ck;
+    int i;
 
-    for (ck = 1; ck <= 1000; ck++) {
-        printf("9 x %d = %d\n", ck, 9 * ck);
+    for (i = 1; i <= 10; i++) {
+        printf("9 x %d = %d\n", i, 9 * i);
     }
 
     return 0;
 }
+
