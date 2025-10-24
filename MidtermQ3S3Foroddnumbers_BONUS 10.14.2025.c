@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int ck;
+    int i;
     
-    for (ck = 1; ck <= 9999999; ck = ck + 2) {
-        printf("%d\n", ck);
+    for (i = 1; i <= 10; i = i + 2) {
+        printf("%d\n", i);
     }
     
     return 0;
