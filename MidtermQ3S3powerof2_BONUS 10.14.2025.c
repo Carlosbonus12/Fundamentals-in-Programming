@@ -3,7 +3,7 @@
 int main() {
     int ck;
     
-    printf("Enter your desired number to be count by the power of two (up to 8192):");
+    printf("Enter your desired number to be count by the power of two (up to 16,384):");
     scanf("%d", &ck);
 
     for (ck; ck <= 16384; ck = ck * 2) {
