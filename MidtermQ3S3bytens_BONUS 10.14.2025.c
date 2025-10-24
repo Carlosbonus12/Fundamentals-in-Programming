@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int ck;
+    int i;
     
-    printf("Enter your desired number to be count by tens (up to 10,000):");
-    scanf("%d", &ck);
-    
-    for (ck; ck <= 10000; ck = ck + 10) {
-        printf("%d\n", ck);
+    for (i = 0; i <= 100; i = i + 10) {
+        printf("%d\n", i);
     }
     
     return 0;
